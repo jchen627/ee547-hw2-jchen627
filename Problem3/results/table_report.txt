@@ -1,0 +1,19 @@
+AWS Account: 430241513821 (us-east-1)
+Scan Time: 2025-09-30 02:34:42.380962 UTC
+
+IAM USERS (1 total)
+Username             Create Date     Last Activity   Policies
+inspector-user       2025-09-30                      1
+
+EC2 INSTANCES (1 running, 0 stopped)
+Instance ID          Type       State      Public IP       Launch Time     
+i-0229660cfaf4a9b5d  t3.micro   running    3.93.182.90     2025-09-30 02:07
+
+S3 BUCKETS (1 total)
+Bucket Name                Region       Created      Objects  Size (MB)
+jchen627test3              us-east-1    2025-09-30          2       0.0
+
+SECURITY GROUPS (2 total)
+Group ID       Name             VPC ID         Inbound Rules
+sg-03588761abc launch-wizard-1  vpc-0e064d43fd 1
+sg-078820ee9d5 default          vpc-0e064d43fd 0

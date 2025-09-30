@@ -1,0 +1,93 @@
+{
+  "account_info": {
+    "account_id": "430241513821",
+    "user_arn": "arn:aws:iam::430241513821:user/inspector-user",
+    "region": "us-east-1",
+    "scan_timestamp": "2025-09-30T02:31:24.161899Z"
+  },
+  "resources": {
+    "iam_users": [
+      {
+        "username": "inspector-user",
+        "user_id": "AIDAWILDEQFOYM5MLCJXI",
+        "arn": "arn:aws:iam::430241513821:user/inspector-user",
+        "create_date": "2025-09-30T01:22:00Z",
+        "last_activity": "",
+        "attached_policies": [
+          {
+            "policy_name": "InspectorPolicy",
+            "policy_arn": "arn:aws:iam::430241513821:policy/InspectorPolicy"
+          }
+        ]
+      }
+    ],
+    "ec2_instances": [
+      {
+        "instance_id": "i-0229660cfaf4a9b5d",
+        "instance_type": "t3.micro",
+        "state": "running",
+        "public_ip": "3.93.182.90",
+        "private_ip": "172.31.28.115",
+        "availability_zone": "us-east-1b",
+        "launch_time": "2025-09-30T02:07:55Z",
+        "ami_id": "ami-08982f1c5bf93d976",
+        "ami_name": "al2023-ami-2023.8.20250915.0-kernel-6.1-x86_64",
+        "security_groups": [
+          "sg-03588761abc6fd63a"
+        ],
+        "tags": {}
+      }
+    ],
+    "s3_buckets": [
+      {
+        "bucket_name": "jchen627test3",
+        "creation_date": "2025-09-30T02:09:34Z",
+        "region": "us-east-1",
+        "object_count": 2,
+        "size_bytes": 37075
+      }
+    ],
+    "security_groups": [
+      {
+        "group_id": "sg-03588761abc6fd63a",
+        "group_name": "launch-wizard-1",
+        "description": "launch-wizard-1 created 2025-09-30T02:07:34.689Z",
+        "vpc_id": "vpc-0e064d43fd5ba6afc",
+        "inbound_rules": [
+          {
+            "protocol": "tcp",
+            "port_range": "22-22",
+            "source": "0.0.0.0/0"
+          }
+        ],
+        "outbound_rules": [
+          {
+            "protocol": "all",
+            "port_range": "all",
+            "destination": "0.0.0.0/0"
+          }
+        ]
+      },
+      {
+        "group_id": "sg-078820ee9d536bd52",
+        "group_name": "default",
+        "description": "default VPC security group",
+        "vpc_id": "vpc-0e064d43fd5ba6afc",
+        "inbound_rules": [],
+        "outbound_rules": [
+          {
+            "protocol": "all",
+            "port_range": "all",
+            "destination": "0.0.0.0/0"
+          }
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "total_users": 1,
+    "running_instances": 1,
+    "total_buckets": 1,
+    "security_groups": 2
+  }
+}

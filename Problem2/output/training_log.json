@@ -1,0 +1,9 @@
+{
+  "start_time": "2025-09-29T19:52:41",
+  "end_time": "2025-09-29T19:52:41",
+  "epochs": 50,
+  "final_loss": 0.049805108457803726,
+  "total_parameters": 307799,
+  "papers_processed": 10,
+  "embedding_dimension": 64
+}
