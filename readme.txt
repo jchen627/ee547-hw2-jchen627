@@ -33,7 +33,12 @@ python train_embeddings.py ../problem1/sample_data/papers.json output/ --epochs 
 
 problem3 test:
 
+my key id:
+AKIAWILDEQFOZE35QQOC
 
+my key- secret:
+HOLGlRi/Z0rlIT7HSMw2w5xiiyh4POnSHPAgN8PJ
+east us 1
 ./test.sh
 python aws_inspector.py --region us-east-1 --format json --output results/test.json
 python aws_inspector.py --region us-east-1 --format table --output results/table_report.txt
